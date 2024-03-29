@@ -1,6 +1,6 @@
 # Robotica-Lab-2
 ## bxsedigcedog2code
-Function main
+	Function main
 	
 	Motor On
 	Power High
@@ -15,8 +15,8 @@ Function main
 		EndIf
 	Loop
 	
-Fend
-Function paletizado_s
+	Fend
+	Function paletizado_s
 	
 	Integer i
 	
@@ -46,8 +46,8 @@ Function paletizado_s
 	
 	Off estado_paletizado_s
 	
-Fend
-Function paletizado_z
+	Fend
+	Function paletizado_z
 	
 	Integer i
 	#define estado_paletizado_z 11
@@ -64,8 +64,8 @@ Function paletizado_z
 	
 	Off estado_paletizado_z
 	
-Fend
-Function paletizado_externo
+	Fend
+	Function paletizado_externo
 	
 	Integer i
 	
@@ -82,4 +82,4 @@ Function paletizado_externo
 	
 	Off estado_paletizado_externo
 	
-Fend
+	Fend
