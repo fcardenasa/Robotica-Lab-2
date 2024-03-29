@@ -17,6 +17,7 @@ A continuación, se presenta los pasos realizados para programar la rutina de pa
 * Se recorren las posiciones del pallet mediante un ciclo FOR que va desde la posición 1 hasta la 9 con el comando Jump/Go
 * Se crea la función paletizado_s, la cual recorre la matriz como 1,2,3,6,5,4,7,8,9. Se utiliza el mismo comando Jump/Go, sin embargo, el ciclo FOR se recorre desde 1:3:1, 6:4:-1 y 7:9:1.
 * Se crea la función paletizado_externo, la cual recorre una matriz 3x3 de manera externa, es decir, recorre desde afuera hacia los elementos interiores añadiendo una fila y columna, por lo tanto, se realiza un FOR anidado, desde i=1:4 para filas y j=1:4 para columnas, para pasar de un estado a otro se usa el comando next.
+* Para activar las entradas y salidas digitales, se debe dar clic en la pestaña I/O manager y asignar al bit de preferencia un estado binario, en caso de ser 1 se activará cierta función/rutina de paletizado. Para el laboratorio, los bits de entradas digitales empiezan desde 512 hasta 1024. La función para evaluar el estado de la entrada digital será Memsw(#BIT) y se cambia el estado de la salida mediante ON/OFF.
 
 ## Videos de demostración: 
 
