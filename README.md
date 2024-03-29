@@ -1,5 +1,17 @@
-# Robotica-Lab-2
-## bxsedigcedog2code
+# Laboratorio 2: Programación Robot SCARA T3 - Robot EPSON T6
+Nombre: Fernando Cardenas Acosta & Raúl Ignacio Marín Medina
+
+## Descripción del problema: 
+Se debe programar los robots SCARA T3 y EPSON T6 por medio del software EPSON RC + 7.0 para realizar movimiento de paletizado en Z, s (paletizado por default) y exterior (alrededor de una matriz 3x3)
+
+## Solución:
+
+
+## Links: 
+
+
+## Código:
+
 	Function main
 	
 	Motor On
