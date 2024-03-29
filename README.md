@@ -2,7 +2,7 @@
 Nombre: Fernando Cardenas Acosta & Raúl Ignacio Marín Medina
 
 ## Descripción del problema: 
-Se debe programar los robots SCARA T3 y EPSON T6 por medio del software EPSON RC + 7.0 para realizar movimiento de paletizado en Z, s (paletizado por default) y exterior (alrededor de una matriz 3x3)
+Se debe programar los robots SCARA T3 y EPSON T6 por medio del software EPSON RC + 7.0 para realizar movimiento de paletizado en Z, s (paletizado por default) y exterior (alrededor de una matriz 3x3). Esta práctica busca visualizar los sconceptos de instalación física y eléctrica del robot (requerimientos para encender, recomendaciones de uso, espacio del controlador dentro del robot y paradas de emergencia), de igual manera, utilizar y editar el Robot Manager para usar comandos Go, Move, Jump, Pallet y Pallet Outside dentro de las rutinas de movimiento. 
 
 ## Solución:
 
