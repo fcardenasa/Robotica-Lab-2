@@ -7,10 +7,16 @@ Se debe programar los robots SCARA T3 y EPSON T6 por medio del software EPSON RC
 ![image](https://github.com/fcardenasa/Robotica-Lab-2/assets/124843458/64eaa355-e2cb-42ae-b290-5bc2ba5fb59a)
 ![image](https://github.com/fcardenasa/Robotica-Lab-2/assets/124843458/0c5d5f1b-2120-4576-9d47-e58d5402e995)
 
-
-
 ## Solución:
 
+A continuación, se presenta los pasos realizados para programar la rutina de paletizado en el robot EPSON T6.
+* Abrir el software EPSON RC+7.0 para crear una conexión virtual con el robot EPSON T6/SCARA T6 en la pestaña "Configuración del sistema".
+* Se debe donfigurar una posición de Home con el Robot Manager, para este caso, la posición de home será uno de los puntos que generan el plano donde el paletizado se realiza.
+* Mediante la herramienta JOG&TEACH se crean tres puntos, los cuales son necesarios para definir el plano del paletizado, estos puntos se llama Origen, Ejex y Ejey en código.
+* Se crea la función paletizado_z, la cual requiere como input los 3 puntos del plano y el tamaño de la matriz para paletizar, en este caso 3x3 (Origen,Ejex,Ejey,3,3).
+* Se recorren las posiciones del pallet mediante un ciclo FOR que va desde la posición 1 hasta la 9 con el comando Jump/Go
+* Se crea la función paletizado_s, la cual recorre la matriz como 1,2,3,6,5,4,7,8,9. Se utiliza el mismo comando Jump/Go, sin embargo, el ciclo FOR se recorre desde 1:3:1, 6:4:-1 y 7:9:1.
+* Se crea la función paletizado_externo, la cual recorre una matriz 3x3 de manera externa, es decir, recorre desde afuera hacia los elementos interiores añadiendo una fila y columna, por lo tanto, se realiza un FOR anidado, desde i=1:4 para filas y j=1:4 para columnas, para pasar de un estado a otro se usa el comando next.
 
 ## Videos de demostración: 
 
