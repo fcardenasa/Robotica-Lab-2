@@ -14,7 +14,11 @@ Se debe programar los robots SCARA T3 y EPSON T6 por medio del software EPSON RC
 
 ## Videos de demostración: 
 
+Demostración paletizado en Z y S.
+https://youtu.be/Mm6FZLsKNC0
 
+Demostración paletizado en Z, S y externo.
+https://youtu.be/Mm6FZLsKNC0
 
 ## Código:
 
